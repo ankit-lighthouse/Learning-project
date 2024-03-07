@@ -1,0 +1,37 @@
+.right {
+  padding: 1rem;
+  .messages_header {
+    display: flex;
+    justify-content: space-between;
+    color: #181818;
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+  }
+  .messages {
+     /* 20px */
+
+    //display: flex;
+    //justify-content: center;
+    .message_item {
+      margin-top: 1rem;
+    }
+  }
+  .map {
+     margin-top:1rem ;
+   // gap: 1rem;
+    color: #181818;
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 20px */
+    .map_img{
+       width: 19.25rem;
+       height:19.25rem;
+       margin-top: 1.5rem;
+    }
+  }
+}

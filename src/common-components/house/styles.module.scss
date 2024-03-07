@@ -1,0 +1,49 @@
+.house {
+  width: 15.125rem;
+  height: 17.87rem;
+  padding: 0.83vw;
+   display: flex;
+  //flex-direction: column;
+  flex-wrap: wrap;
+    .img {
+      width: 13.62rem;
+      height: 10rem;
+      // padding: 0.83vw 0.83vw 7.91vw 0.83vw;
+    }
+    .content {
+      margin: 1.38vw 2.5vw 1.111vw 0.83vw;
+      .title {
+        color: #181818;
+
+        font-family: Quicksand;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%; /* 16px */
+        margin-bottom: 1.111vw;
+      }
+      .price {
+        color: #ff5b19;
+        font-family: Inter;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%; /* 14px */
+      }
+    }
+    .location {
+      display: flex;
+      .location_icon {
+        margin-right: 0.55vw;
+      }
+      .location_name {
+        color: #7f7f7f;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%; /* 12px */
+      }
+    }
+  
+}

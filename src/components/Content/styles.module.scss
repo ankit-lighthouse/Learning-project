@@ -1,0 +1,44 @@
+.content {
+  // background-color: red;
+  //display: flex;
+  //flex-direction: column;
+  .header {
+    //background-color: blueviolet;
+    //padding: 1.5rem 49.875rem 1.5rem 1.5rem;
+    //width: 70.25rem;
+    //height: 6.25rem;
+    margin-left: 1.5rem;
+  }
+
+  .content_wrap {
+    display: grid;
+    grid-template-columns: 47.5rem 21.25rem;
+    grid-column-gap: 1.5rem;
+    .house {
+      //  padding: 9.25rem 24.25rem -12.875rem 1.5rem;
+      //  width: 47.5rem;
+      // height:61.25rem;
+      //  background-color: brown;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .card {
+        display: flex;
+        // flex-direction: column;
+        flex-wrap: wrap;
+      }
+
+      .house_details {
+        //width:45.25rem;
+        // height:19.5rem;
+      }
+    }
+    .right_content {
+      //display: flex;
+      width: 21.25rem;
+      height: 44.875rem;
+      //margin:11.25rem 1.5rem 1.5rem 50.5rem;
+      // background-color: chartreuse;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.content_header {
+ // background-color: brown;
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    // justify-content: center;
+    .result {
+      color: #181818;
+      font-family: Quicksand;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 100%; /* 24px */
+    }
+    .map_btn {
+      display: flex;
+      align-self: center;
+      color: #181818;
+      font-family: Inter;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 100%;
+      /* 16px */
+      .map_view {
+        display: flex;
+        align-self: center;
+        margin-right: 1rem;
+      }
+    }
+  }
+  .search_bar{
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
